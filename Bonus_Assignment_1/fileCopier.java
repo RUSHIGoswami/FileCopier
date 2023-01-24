@@ -11,22 +11,22 @@ public class fileCopier{
         if(input.exists()){
            int a;
            if(output.exists()){
-               temp = new File(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-copy"+fileName.substring(fileName.indexOf("."), fileName.length()));
+               temp = new File(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-Copy"+fileName.substring(fileName.indexOf("."), fileName.length()));
                if(temp.exists()){
                    int i = 2;
                    while(true){
-                       temp = new File(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-copy("+i+")"+fileName.substring(fileName.indexOf("."), fileName.length()));
+                       temp = new File(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-Copy ("+i+")"+fileName.substring(fileName.indexOf("."), fileName.length()));
                        if(!temp.exists())
                            break;
                        i++;
                    }
-                   writing = new FileWriter(dest+"\\"+fileName.substring(0, fileName.indexOf("."))+"-copy("+i+")"+fileName.substring(fileName.indexOf("."), fileName.length()));    
+                   writing = new FileWriter(dest+"\\"+fileName.substring(0, fileName.indexOf("."))+"-Copy ("+i+")"+fileName.substring(fileName.indexOf("."), fileName.length()));    
                    while((a=reading.read()) != -1){
                        writing.write(a);
                    }
                    System.out.println("Successfully copied");
                }else{
-                   writing = new FileWriter(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-copy"+fileName.substring(fileName.indexOf("."), fileName.length()));
+                   writing = new FileWriter(dest+"\\"+fileName.substring(0,fileName.indexOf("."))+"-Copy"+fileName.substring(fileName.indexOf("."), fileName.length()));
                    while((a=reading.read()) != -1){
                        writing.write(a);
                    }
