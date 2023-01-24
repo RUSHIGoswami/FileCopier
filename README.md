@@ -1,6 +1,6 @@
 # FileCopier
 
-<h1>Approach</h1>
+<h3>Approach</h3>
 
 -> The challenge is implemented with Core Java.<br>
 -> I have used java in-built file handling character stream classes like File, FileReader, FileWriter etc.<br>
@@ -11,7 +11,7 @@
 
 <hr>
 
-<h1>Snapshots of Output</h1>
+<h3>Snapshots of Output</h3>
 
 ![Copying into same folder](https://user-images.githubusercontent.com/64486280/214250364-8dfd6f86-7812-4d97-bf99-a84980ea6ee3.png)
 <br>
