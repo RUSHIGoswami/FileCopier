@@ -17,7 +17,8 @@
 
 ![Copying into same folder](https://user-images.githubusercontent.com/64486280/214250364-8dfd6f86-7812-4d97-bf99-a84980ea6ee3.png)
 <br>
-![Output](https://user-images.githubusercontent.com/64486280/214250481-fbeb06d9-fddc-4d9d-a24b-0de965db4347.png)
+![Output](https://user-images.githubusercontent.com/64486280/214285461-97bc283d-683d-4f30-be30-ad1f45062e9e.png)
+
 <br>
 
 ![Copying to different folder](https://user-images.githubusercontent.com/64486280/214250861-5a78ccb9-c3da-4144-920a-718ba3c664b3.png)
