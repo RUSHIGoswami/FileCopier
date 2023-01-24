@@ -4,6 +4,8 @@
 
 -> The challenge is implemented with Core Java.<br>
 -> I have used java in-built file handling character stream classes like File, FileReader, FileWriter etc.<br>
+-> These classes are of Java.utils and Java.io packages.<br>
+-> I have used the throws keyword for handling exceptions such as FileNotFoundException, IOException.<br>
 -> My Approach is to take source path , file name and destination path as user input after which initializing file object.<br>
 -> After getting file objects it is checking if file exists by using in-built method file.exists(). <br>
 -> If file exists and if both input and output objects are same and exist then, first it'll create new file naming it with "-copy" and appending appropriate number.<br>
